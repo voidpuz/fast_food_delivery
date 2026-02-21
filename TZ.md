@@ -10,3 +10,5 @@ R7: user should be able to choose region
 R8: user should be able to see history of orders
 R9: user should be able to liked in products
 R10: user should be albe to see sales
+
+our deadline is 1st march
