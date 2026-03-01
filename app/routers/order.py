@@ -8,4 +8,13 @@ from app.dependencies import current_user_dep
 
 router=APIRouter(prefix="/order",tags=["/Orders"])
 
+@router.get("/{order_id}",response_model=OrderListResponse)
+async def get_order(session: db_dep, order_id: int):
+    stmt=select(Order).where(Order.id==order_id)
+    res=session.execute(stmt)
+    product=res.scalars().first()
 
+    return product 
+
+
+@router.post("/create",response_model=OrederCreateRequest)

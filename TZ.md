@@ -23,7 +23,9 @@ Yechimlar:
 Onlayn menyu va real vaqt buyurtma qabul qilish.
 Buyurtma statusini kuzatish (received → preparing → on the way → delivered).
 Admin panel: mahsulot, aksiya, filial, kuryer boshqaruvi.
-Hisobot va analitika moduli.rel
+Hisobot va analitika moduli.
+Mahsulotlarni categoriya buyicha taqsimlash 
+
 
 
 Imkoniyatlar:
@@ -31,4 +33,7 @@ Filiallar bo‘yicha avtomatik taqsimlash (eng yaqin filialdan tayyorlash).
 Foydalanuvchi profili va buyurtmalar tarixi.
 Dashboard: kunlik daromad, top mahsulotlar, o‘rtacha chek.
 Skalabillik: yangi shahar yoki filial qo‘shish. 
+User mashsulotlarni order qilisn paytida savatga qusha olishi va olib tashlashi 
+User order qilish paytida  mahsulotga qarab barcha malumotlarni bilisb olishi
+Mijoz uchun juda kup qulayliklar chegirmaga tushgan mahsulotlarni kura olishi , o;zi xoxlaghan tilga ugira ollishi va mahsulotlarga like bosa olishi 
 >>>>>>> 4cb10e7 (models)
